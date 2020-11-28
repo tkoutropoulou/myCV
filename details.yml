@@ -1,0 +1,40 @@
+---
+# Personal details
+name: Theoni Koutropoulou
+address:
+- Averof 9, Athens
+- Greece
+phone: "+30 694 483 6053"
+email: theoni.koutropoulou@gmail.com
+# Insert URLs without http://
+urls:
+#- wki.pe/friedrich_nietzsche
+#- twitter.com/tinynietzsche
+
+# Sections
+
+intro: "4+ years research and implementation in machine learning including natural language processing, data mining, classification, neural networks. Strong understanding of text pre-processing and normalization techniques, such as tokenization,POS tagging and parsing. 5+ years experience with MATLAB and over a year with Python3."
+
+#skills:
+#- Aesthetics, Ethics, Metaphysics, Nihilism
+
+
+experience:
+- years: Jul 2019 --
+  employer: OMILIA Ltd
+  job: Junior Data Scientist
+
+education:
+- year: Nov 2014 -- Sept 2018
+  subject: MSc in Mathematics of Computers & Decision Making
+  institute: University of Patras
+- year: Jan 2008 -- Jun 2014
+  subject: BSc in Mathematics
+  institute: University of Patras
+
+# Settings
+#mainfont: Hoefler Text
+#fontsize: 10pt
+#lang: en-GB
+#geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
+---
