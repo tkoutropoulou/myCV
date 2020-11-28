@@ -1,0 +1,278 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Resume/CV
+% LaTeX Template
+% Version 1.1 (19/6/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) with extensive modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,11pt]{memoir} % Font and paper size
+\usepackage{hyperref}
+\input{structure.tex} % Include the file specifying document layout and packages
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION 
+%----------------------------------------------------------------------------------------
+
+\userinformation{ % Set the content that goes into the sidebar of each page
+\begin{flushright}
+% Comment out this figure block if you don't want a photo
+%\includegraphics[width=0.6\columnwidth]{photo.jpg}\\[\baselineskip] % Your photo
+\small % Smaller font size
+\vspace{10mm}
+Theoni Koutropoulou \\ % Your name
+\hspace{0.01mm}
+\url{theoni.koutropoulou@gmail.com} \\ % Your email address
+%\url{www.johnsmith.com} \\ % Your URL
++30 694 483 6053 \\ % Your phone number
+\Sep % Some whitespace
+\textbf{Address} \\
+Averof 9, Athens\\ % Address 1
+%City, State 12345 \\ % Address 2
+Greece \\ % Address 3
+\vfill % Whitespace under this block to push it up under the photo
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	HEADING
+%----------------------------------------------------------------------------------------
+
+\cvheading{Theoni Koutropoulou} % Large heading - your name
+
+%\cvsubheading{ Machine Learning Data Scientist } % Subheading - your occupation/specialization
+
+%----------------------------------------------------------------------------------------
+%	ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{About Me:}{4+ years research and implementation in machine learning including natural language processing, data mining, classification, neural networks. Strong understanding of text pre-processing and normalization techniques, such as tokenization,POS tagging and parsing. 5+ years experience with MATLAB and over a year with Python3. }
+
+\Sep
+\CVSection{Experience}
+\CVItem{Jul 2019 -- , OMILIA Ltd }{Junior Data Scientist}\\
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\CVSection{Education}
+
+%------------------------------------------------
+
+\CVItem{Nov 2014 -- Sept 2018, University of Patras}{MSc in Mathematics of Computers \& Decision Making}\\
+{\small Area: {Mathematical Foundations of Computer Science and Applications in Artificial Retrieval of Inferences and Decision Making}}
+\Sep \\
+Thesis Title: {Automatic keyword extraction and Indexing: Algorithms and Implementations}\\ 
+Supervisor: Prof. Efstratios Gallopoulos \\
+Master Courses: Case study in Decision Making, Artificial Intelligence, Intelligent Decision Systems, Algorithms, Decision Theory, Data Mining, Neural Networks \& Evolutionary Algorithms
+%------------------------------------------------
+\\
+\CVItem{Jan 2008 -- Jun 2014, University of Patras}{BSc in Mathematics}\\
+Thesis Title: {Data Mining algorithms in R} \\
+Supervisor: Assistant Prof. Sotiris Kotsiantis
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\Sep 
+
+\CVSection{Academic Experience}
+
+%------------------------------------------------
+
+\CVItem{Sept 2018 - Feb 2019} {Kaggle competition: "Quora Insincere Questions Classification" [1297/4037]}
+\begin{itemize}
+\item I preprocessed textual data (e.g tokenization, stopword removal)
+\item I applied pretrained word embeddings 
+\item I trained a neural network for text classification
+\end{itemize}
+
+\CVItem{Dec 2016 - Sept 2018}{ Subject: Master Thesis 
+
+\begin{itemize}
+
+	\item TMG \footnote{\url{http://scgroup20.ceid.upatras.gr:8000/tmg/}} expansion to new Text Mining algorithms in Matlab	
+	\begin{itemize}
+	\item Keyword extraction
+	\item Back-of-book indexing
+	\item Part-of-Speech tagging
+	\item TMG graphical user interface 
+	\item Named entity recognition (in progress)
+	\end{itemize}
+\end{itemize}
+
+\clearpage % Start a new page
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+
+}
+
+
+\CVItem{Oct 2016 - Jan 2017}{ Subject: Statistics
+\begin{itemize}
+	\item Statistical analysis with SPSS	
+\end{itemize}
+}
+
+\CVItem{Feb 2015 - Jun 2015}{ Subject: Intelligent Decision Systems 
+\begin{itemize}
+	\item Glass identification intelligent system development in CLIPS and WEKA
+\end{itemize}
+}
+\Sep 
+
+\CVSection{Publications}
+
+1. Koutropoulou, Theoni, and Efstratios Gallopoulos. "TMG-BoBI: Generating Back-of-the-Book Indexes with the Text-to-Matrix-Generator." 2019 10th International Conference on Information, Intelligence, Systems and Applications (IISA). IEEE, 2019.
+%------------------------------------------------
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS
+%----------------------------------------------------------------------------------------
+
+%\CVSection{Communication Skills}
+
+%------------------------------------------------
+
+%\CVItem{2015, \textit{Oral Presentation}, California Business Conference}{Presented research I conducted for my Masters of Engineering degree.}
+
+%------------------------------------------------
+
+%\CVItem{2014, \textit{Poster}, Annual Business Conference (Oregon)}{As part of the course work for BUS320, I created a poster analyzing several local businesses and presented this at a conference.}
+
+%------------------------------------------------
+
+
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Language Skills}
+
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth}}
+\bluebullet Greek: Native & \\
+\bluebullet English: Fluent &  \\
+\bluebullet French: Moderate & \\
+\end{tabular}}
+
+%------------------------------------------------
+\Sep 
+
+\CVSection{Programming and Scripting Languages}
+{\begin{tabular}{p{0.5\textwidth} p{0.2\textwidth}}
+\bluebullet Matlab, Python: Excellent & \\
+\bluebullet R: Good & \\
+%\bluebullet Python: Good & \\
+%\bluebullet C++ &  \bluebullet PHP & \bluebullet Matlab\\
+\end{tabular}}
+
+%------------------------------------------------
+ 
+
+\Sep 
+
+\CVSection{IT Experience}
+{\begin{tabular}{p{1.5\textwidth}}
+\bluebullet Natural Language Processing Software: StanfordNLP, NLTK, Pytorch\\
+\bluebullet Machine Learning Software: Matlab, Python, Weka \\
+\bluebullet Numerical Analysis Software: Octave, R \\
+\bluebullet Statistical Analysis Software: SPSS \\
+\bluebullet Operating Systems: Linux, Mac OS, Windows\\
+\bluebullet Databases: MySQL \\
+\bluebullet Other Software: {LaTeX}\\
+\end{tabular}}
+\Sep
+
+
+\CVSection{Other skills and competences}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+ \bluebullet Cooperative &  \bluebullet Organized & \bluebullet Willingness to Learn\\
+  \bluebullet Teamwork &  \bluebullet Hardworking & \bluebullet Passionate\\
+\end{tabular}}
+
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	NEW PAGE DELIMITER
+%	Place this block wherever you would like the content of your CV to go onto the next page
+%----------------------------------------------------------------------------------------
+
+%\clearpage % Start a new page
+
+%\userinformation % Print your information in the left column
+
+%\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+%\CVSection{Awards}
+
+%------------------------------------------------
+
+%\CVItem{2010, \textit{Postgraduate Scholarship}, Cornell University}{Awarded to the top student in their final year of a Bachelors degree.}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS
+%----------------------------------------------------------------------------------------
+%\newpage
+\CVSection{Interests}
+
+%------------------------------------------------
+
+\CVItem{Scientific}{Machine learning,  Text Mining, Natural Language Processing, Word-representation, Word Embeddings, Neural Networks for language processing,  Big Data, Data Mining, Information Retrieval, Neural Networks, Statistics}
+
+%------------------------------------------------
+
+\CVItem{Personal}{Technology, Travelling}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
